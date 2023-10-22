@@ -1,0 +1,41 @@
+table {
+    font-family: 'Arial Narrow Bold';
+    font-weight: bold;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 5px; /* Menambahkan radius sudut untuk sudut tabel */
+    box-shadow: 0 2px 5px rgba(234, 223, 12, 0.1); /* Menambahkan bayangan tabel */
+}
+
+
+body {
+    background-color: #b59f9f;
+}
+h2 {
+    font-family: 'Arial Narrow Bold';
+    text-align: center;
+    font-size: 45px;
+    color: #333;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #b59f9f;
+    border-bottom: 2px solid #dddddd; /
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Memberikan latar belakang warna abu-abu bergantian untuk baris genap */
+}
+
+/* Menambahkan efek saat cursor hover di atas baris */
+tr:hover {
+    background-color: #bc6f6f;
+    transition: background-color 0.3s;
+}
